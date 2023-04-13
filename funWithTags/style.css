@@ -1,0 +1,20 @@
+#headerTag{
+    color:rgb(184, 110, 122)
+}
+
+#inlineTagsList{
+    list-style: circle;
+}
+
+
+#metaTag{
+    color:rgb(136, 177, 184)
+}
+
+mark {
+    background-color: #e4e4fe;
+  }
+
+h4{
+    color: rgb(64, 97, 102)
+}

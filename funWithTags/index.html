@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fun With Tags</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 id="headerTag">Sectioning tags:</h2>
+        
+        <header><b>header</b> often contains website branding or logo</header>
+
+        <nav> 
+            <ul>
+            <li>
+                <a href="pic2.jpg"><b>nav</b></a>
+            </li>
+            <li>
+                <a href="pic3.png">is used for navigation links</a>
+            </li>
+            <li>
+                <a href="pic1.jpg">of a sector or the web page</a>
+            </li>
+            </ul>
+        </nav>
+
+        <main><b>main</b> specifies <i>the main</i> content of a section or web page</main>
+
+        <aside><b>aside</b> is an insertion that is not related to the main content</aside>
+
+        <article><b>article</b> is an independent, self-contained block of content
+            <section><b>section</b> is a standalone section of a document that is often used within the body and article</section>
+        </article>
+
+        <details>
+            <summary><b>summary</b> specifies the summary or caption of a "details" element</summary>
+            <b>details</b> is a collapsed section of the content that can be expanded
+        </details>
+
+        <h1>H1 - the most important heading</h1>
+        <h2>H2 heading</h2>
+        <h3>H3 heading</h3>
+        <h4>H4 heading</h4>
+        <h5>H5 heading</h5>
+        <h6>H6 - the least important heading</h6>
+
+        <h2 id="headerTag">Content tags:</h2>
+
+        <blockquote><b>blockquote</b> is used to describe a quotation</blockquote>
+
+        <dl>This is a <b>dl</b> used for a description list 
+            <dt>This is a <b>dt</b> used to descibe terms inside <b>dl</b> elements</dt>
+            <dd><b>dd</b> is used to define a description for the preceding <b>dt</b> element</dd>
+        </dl>
+
+        <ol><b>ol</b> defines an ordered list
+            <li>item1 using <b>li</b></li>
+            <li>item2 using <b>li</b></li>
+        </ol>
+
+        <menu><b>menu</b> is a semantic alternative to <b>ul</b> tag
+            <li>item1 using <b>li</b></li>
+            <li>item2 using <b>li</b></li>
+        </menu>
+
+        
+        <ul><b>ul</b> is an unordered list
+            <li><b>li</b> is used to define an item within a list</li>
+            <li>item1 using <b>li</b></li>
+            <li>item2 using <b>li</b></li>
+        </ul>
+
+        <figcaption><b>figcaption</b> is used to define a caption for a photo image</figcaption>
+
+        <figure><b>figure</b> applies markup to a photo image</figure>
+
+        <hr> 
+        <p><b>hr</b> adds a horizontal line to the parent element</p> 
+        <hr>
+
+        <p><b>p</b> defines a paragraph</p>
+
+        <pre><b>pre</b> is used to represent preformatted text. Typically renderes in the web browser using a monospace fonr</pre>
+        
+        <h2 id="headerTag">Inline tags:</h2>
+
+        <ul id="inlineTagsList">
+            <li>
+                <a><b>a</b> - is an anchor link to another HTML document</a> 
+            </li>
+            <li>
+                <abbr><b>abbr</b> - specifies that the containing text is an abbreviation or acronym</abbr>
+            </li>
+            <li>
+                <b>b - bolds the containing text</b>
+            </li>
+            <li>
+                <strong>strong - used instead of <b>b</b> to indicate importance</strong>
+            </li>
+            <li>
+                <br>
+                <div><b>br</b> - a line break</div>
+            </li>
+            <li>
+                <cite><b>cite</b> - defines the title of creative work (ie.books, poem, song, etc.), the text is rendered in italics</cite>
+            </li>
+            <li>
+                <code><b>code</b> - indicates that the containing text is a block of code</code>
+            </li>
+            <li>
+                <data><b>data</b> - indicates machine-readable data</data>
+            </li>
+            <li>
+                <em><b>em</b> - emphasizes the containing text</em>
+            </li>
+            <li>
+                <i><b>i</b> - the containing text is displayed in italics, used to indicate idiomatic text or technical terms</i>
+            </li>
+            <li>
+                <mark><b>mark</b> - the containing text should be marked or highlighted</mark>
+            </li>
+            <li>
+                <q><b>q</b> - the containing text is a short quotation</q>
+            </li>
+            <li>
+                <s><b>s</b> - displays the containing text wiith a strikethrough</s>
+            </li>
+            <li>
+                <samp><b>samp</b> - the containing text represents a sample</samp>
+            </li>
+            <li>
+                <small><b>small</b> - used to represent small text, such as copyright and legal text</small>
+            </li>
+            <li>
+                <span><b>span</b> - a generic element for grouping content for CSS styling</span>
+            </li>
+            <li>
+                <sub><b>sub</b> - the containing text is a subscript text, displated with a lowered baseline</sub>
+            </li>
+            <li>
+                <time><b>time</b> - a semantic tag used to display both date and times</time>
+            </li>
+            <li>
+                <u><b>u</b> - displays the containing text with solid underline</u>
+            </li>
+            <li>
+                <var><b>var</b> - the containing text is a variable in a mathematical expression</var>
+            </li>
+        </ul>
+
+        <h2 id="headerTag">Embedded content and media tags:</h2>
+
+        <div><b>source</b> specifies media resources for <b>picture</b>, <b>video</b> and <b>audio</b></div>
+        <br>
+    
+        <div><b>audio</b> is used to embed audio in web pages</div>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the video tag.
+        </audio>
+
+        <div><b>picture</b> an element that contains one <b>img</b> element and one or more <b>source</b> elements to offer alternarive images for different displays/devices</div>
+        <div>Picture showed on page depends on the size of web browser</div>
+        <picture>
+            <source media="(min-width:850px)" srcset="pic1.jpg" width="200" height="200">
+            <source media="(min-width:465px)" srcset="pic4.jpg" width="200" height="200">
+            <img src="pic3.png" alt="KittyCat" width="200" height="200">
+        </picture> 
+        
+        <div><b>video</b> embeds a video on a web page</div>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <br>
+        <div><b>canvas</b> is used to render 2D and 3D graphics on web pages. Canva can be filled using JavaScript</div>
+        <canvas id="myCanvas" width="100" height="50" style="border:1px solid #000000";> </canvas>
+        <canvas id="myCanvas2" width="200" height="100" style="border:1px solid #000000";> </canvas>
+        <canvas id="myCanvas3" width="200" height="100" style="border:4px dotted #000000";> </canvas>
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.font = "30px Arial";
+            ctx.strokeText("Diana", 10, 30);
+        </script> 
+        <script>
+            var c = document.getElementById("myCanvas2");
+            var ctx = c.getContext("2d");
+            
+            // Create gradient
+            var grd = ctx.createLinearGradient(200, 0, 0, 0);
+            grd.addColorStop(0, "red");
+            grd.addColorStop(1, "white");
+            
+            // Fill with gradient
+            ctx.fillStyle = grd;
+            ctx.fillRect(0, 0, 200, 100);
+        </script> 
+
+        <br>
+        <div><b>embed</b> is used as containing element for external content provided by an external application</div>
+        <embed type="image/jpg" src="pic4.jpg" width="200" height="200"> 
+            <br>
+        <embed type="text/html" src="blog.html" width="400" height="150"> 
+    
+        <div><b>iframe</b> is used to embed a nested web page</div>
+        <iframe src="https://www.w3schools.com" title="W3Schools"width="400" height="400"></iframe> 
+
+        <div><b>img</b> embeds an image on a web page</div>
+        <img src="pic5.jpg" width="200" height="200">
+
+        <div><b>object</b> is similar to <b>embed</b> but the content is provided by a web page plugin. It is better to use tags img, iframe and video/audio than object</div>
+        <object data="blog.html" width="500" height="200"></object> 
+        
+        <div><b>svg</b> is used to define Scalable Vector Graphics within a web page</div>
+        <div>SVG is a language for describing 2D graphics in XML. Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+        </div>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="yellow" stroke-width="4" fill="pink" />
+        </svg>
+        <svg width="400" height="100">
+            <rect width="400" height="100" style="fill:rgb(93, 93, 150);stroke-width:10;stroke:rgb(56, 54, 160)" />
+        </svg>
+        
+        <svg width="300" height="180">
+            <rect x="10" y="10" rx="20" ry="20" width="130" height="140"
+            style="fill:rgb(236, 244, 31);stroke:rgb(81, 233, 182);stroke-width:3;opacity:0.5" />
+        </svg> 
+        
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 180,78 10,78 160,198"
+            style="fill:rgb(84, 202, 231);stroke:rgb(89, 92, 156);stroke-width:3px;
+            fill-rule:evenodd;" />
+        </svg>
+
+        <svg height="130" width="500">
+            <defs>
+              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                
+                <stop offset="0%" style="stop-color:rgb(208, 164, 216);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(254, 6, 6);stop-opacity:1" />
+              </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <text fill="#c72961" font-size="45" font-family="Verdana" x="35" y="86">Diana</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+
+        <h2 id="headerTag">Table tags:</h2>
+
+        <table>
+            <thead>
+              <tr>
+                <th>*table* defines a table</th>
+                <th>*thead* defines a header</th>
+                <th>*th* is a header cell</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>tbody</b> defines body</td>
+                <td><b>td</b> represents a cell</td>
+                <td>td</td>
+              </tr>
+              <tr>
+                <td><b>tr</b> represent a row</td>
+                <td>td</td>
+                <td>td</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><b>tfoot</b> defines a footer np. suma</td>
+                <td><b>td</b></td>
+                <td><b>td</b></td>
+              </tr>
+            </tfoot>
+        </table> 
+
+        <h2 id="metaTag">Metadata tags</h2>
+        <p>Meta tags are important for transmiting information to search engines about the web page. All of them are placed in < head></head></p>
+
+        <h2 id="metaTag">Name tag examples</h2>
+
+        <h4>*meta name="description"*</h4>
+        <p>important points:
+            <ul>
+                <li>always add your meta name Description tag in the HEAD section of your site</li>
+                <li>optimal length for the Description tag - Google typically shows max. 165 characters (keep it under 160)</li>
+                <li>description tags are important for SEO and visitors - It shows up in the search engine results pages (SERP) and in Browser Tabs</li>
+            </ul>
+            example: < meta name = "description" content="provides a brief description of the web page">
+        </p>
+
+        <h4>*title*</h4>
+        <p>Meta title is not a meta tag but its represented by a title tag that is used inside a < head> element<br>
+            Important points when optimizing a meta title:
+            <ul>
+                <li>optimal length between 55 and 65 characters (maximum 70)</li>
+                <li>combine important keywords to a meaningful sentence</li>
+                <li>most important keyword should come first</li>
+                <li>avoid word repetitions and spelling errors</li>
+                <li>provide a concise and understandable description of the page content</li>
+                <li>use a call-to-action if necessary</li>
+                <li>use individual titles for each page of a website</li>
+            </ul>
+            example: <br>
+            < head> <br>
+            < title>Title of a web page /title> <br>
+            / head>
+        </p>
+
+        <h4>*meta name = "author"*</h4>
+        <p>Specifies the author of the web page <br>
+        example: <br>
+        <head>
+            < meta name = "author" content = "Diana Popławska" >
+        </head>
+        </p>
+
+        <h4>*meta name = "language"*</h4>
+        <p>
+            Specifies the language of the web page<br>
+            example: <br>
+            < meta name = "language" content = "english">
+        </p>
+
+        <h4>*meta name = "robots"*</h4>
+        <p>
+            Provides instructions for bots. Like the file "robots.txt" tells search engine crawlers 
+            wheter or not they are allowed to index a page<br>
+             example: <br>
+             < meta name="robots" content="noindex" /><br>
+             < meta name="googlebot" content="noindex" /><br>
+             < meta name="googlebot-news" content="index, follow" /><br>
+             < meta name="slurp" content="noindex" /><br>
+             < meta name="msnbot" content="noindex" />
+             <br>
+             In this example, the top line gives applies to all search engine bots while the 4 
+             lines after that give apply to specific user-agents.
+
+             Different directives for indexation:<br>
+             noindex, index, follow, nofollow, noimageindex, none, noarchive, nocache, nosnippet, noodyp/noydir, unavailable_after 
+        </p>
+
+        <h4>*meta name = "revised"*</h4>
+        <p>
+            Specifies the last modified date and time which you have made certain changes on the web page
+            <br>
+            example: <br>
+            < meta name = "revised" content = "Thursday, April 13th, 2023, 9:06pm">
+        </p>
+
+        <h4>*meta name = "rating"*</h4>
+        <p>
+           Specifies the expected audience for your page. <br>
+           example: <br>
+           < meta name = "rating" content = "safe for kids">
+           <br>
+            Content values to use:
+           <ul>
+            <li>general</li>
+            <li>mature</li>
+            <li>restricted</li>
+            <li>adult</li>
+            <li>14 years</li>
+            <li>safe for kids</li>
+           </ul>
+        </p>
+
+        <h4>*meta name = "copyright"*</h4>
+        <p>
+            Specifies a Copyright. <br>
+            example:<br>
+            < meta name = "copyright" content = "Copyright 2023"> or in content can be an owner of the web page
+        </p>
+
+    </body>
+</html>
