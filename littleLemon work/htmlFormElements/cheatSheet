@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" height=220px>
+  </header>
+  <main>
+    <h1>HTML form elements</h1>
+    <form method="POST">
+        <h3>inputs and labels</h3>
+        <label for="uname">Username:</label> 
+        <br> 
+        <input type="text" id="uname" name="username"> 
+        <br> 
+        <label for="pwd">Password:</label> 
+        <br> 
+        <input type="password" id="pwd" name="pwd"> 
+        <br><br> 
+        <button type="submit">Submit form</button>
+      </form>
+      <form method="POST">
+        <h3>textarea</h3>
+        <textarea name="response" rows="10" cols="30" maxlength=”200”>Default text</textarea> 
+      </form>
+
+      <form method="POST">
+        <h3>clickable button</h3>
+        <button type="button" onclick="alert('You just clicked!')">Click Me!</button> 
+      </form>
+
+      <form method="POST">
+        <h3>fieldset and legend</h3>
+        <fieldset> 
+          <legend>Personal Info</legend> 
+          <label for="fname">First name:</label><br> 
+          <input type="text" id="fname" name="fname" value="Diana"><br> 
+          <label for="lname">Last name:</label><br> 
+          <input type="text" id="lname" name="lname" value="Example"><br> 
+        </fieldset> 
+        
+        <fieldset> 
+          <legend>Qualificaiton</legend> 
+          <label for="pdegree">Primary degree:</label><br> 
+          <input type="text" id="pdegree" name="degree" value="Engineer"><br> 
+          <label for="fos">Last name:</label><br> 
+          <input type="text" id="fos" name="field" value="Software"><br> 
+        </fieldset> 
+      </form>
+
+      <form action="/my_action_page">
+        <h3>datalist</h3>
+          <label for="flowers">Favourite flower:</label><br> 
+          <input list="flowers" name="flowers"> 
+          <datalist id="flowers"> 
+            <option value="Rose"> 
+            <option value="Lily"> 
+            <option value="Tulip"> 
+            <option value="Daffodil"> 
+            <option value="Orchid"> 
+          </datalist> 
+          ... 
+      </form>
+
+      <form method="POST">
+        <h3>option</h3>
+        <label for="course">Choose a course:</label><br> 
+        <select id="course" name="courselist"> 
+          <option value="html">HTML Introduction</option> 
+          <option value="css">Styling with CSS</option> 
+          <option value="js">JavaScript</option> 
+          <option value="react">React Basics</option> 
+        </select> 
+      </form>
+  </main>
+</body>
+
+</html>
