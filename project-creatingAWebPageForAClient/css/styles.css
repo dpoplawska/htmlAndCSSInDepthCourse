@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    background-color: #d0cdc772;
+    text-decoration-color: #3c3d21;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 0;
+}
+
+nav {
+    background-color: #d0cdc772;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  .container a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #3c3d21;
+  }
+  
+  .container a:hover {
+    background-color: #d0cdc772;
+    height: 100%;
+  }
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+  /* background-color: #dcd9d2; */
+  background-color: #d0cdc772;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #828b79;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #828b79;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  display: flex;
+  color: #828b79;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: repeat(2, 1fr);
+  text-align: justify;
+}
+
+footer div {
+  margin-left: 5%;
+}
+
+.promoBanner {
+  display: grid;
+  max-width: 90%;
+  max-height: 90%;
+  align-self: center;
+  object-fit: contain;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.designs {
+  grid-template-columns: 3fr 2fr 3fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1em;
+  max-width: 90%;
+  max-height: 90%;
+  align-self: center;
+  object-fit: contain;
+  margin-left: 5%;
+  margin-right: 5%;
+}
